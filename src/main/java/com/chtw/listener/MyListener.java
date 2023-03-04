@@ -48,9 +48,9 @@ public class MyListener {
         // 此处有多种方式。
         // 方式1: 获取此好友并直接发送
         System.out.println(event.getMessageContent().getPlainText());
-        String reply = openAISdk.getOpenAIReplyV2(event.getMessageContent().getPlainText());
+//        String reply = openAISdk.getOpenAIReplyV2(event.getMessageContent().getPlainText());
         // 方式2: 使用消息事件对象提供的'回复'(reply) 能力
-        event.replyBlocking(reply);
+        event.replyBlocking("你好");
     }
     @Listener
     @Filter(targets = @Filter.Targets(atBot = true))
