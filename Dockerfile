@@ -1,5 +1,5 @@
 FROM openjdk:17-oracle
-ADD target/qq-robot-1.0-SNAPSHOT.jar app.jar
+ADD target/qq-robot-1.0-SNAPSHOT.jar /app/app.jar
 RUN bash -c 'touch /app/app.jar'
 WORKDIR /app
 ENTRYPOINT 9543
