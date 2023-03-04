@@ -1,2 +1,4 @@
 simbot:
   bot-configuration-resources: file:bots/*.json
+server:
+  port: 9543
