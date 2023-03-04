@@ -1,0 +1,2 @@
+simbot:
+  bot-configuration-resources: file:bots/*.json
