@@ -1,4 +1,4 @@
-FROM openjdk:11-ea-17-jre
+FROM openjdk:17-oracle
 ADD target/qq-robot-1.0-SNAPSHOT.jar app.jar
 RUN bash -c 'touch /app.jar'
 ENTRYPOINT 9915
