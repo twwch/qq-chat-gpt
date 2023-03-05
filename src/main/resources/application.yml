@@ -1,5 +1,6 @@
 simbot:
   bot-configuration-resources:
     - 'file:/app/bots/*.yaml'
+
 server:
   port: 9543
