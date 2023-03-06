@@ -33,7 +33,7 @@
       twwch/qq-chat-gpt:master
    ```
 
-   启动完成后会出现一个链接，点击去验证获取授权码，拿到ticket后，输入即可，所以授权完成后，退出程序，然后重启程序即可
+   启动完成后会出现一个链接，点击去验证获取授权码，拿到ticket后，输入即可，所有授权完成后，退出程序，然后重启程序即可
    ```shell
    docker restart qq-robot-chatgpt
    ```
