@@ -1,7 +1,6 @@
 FROM openjdk:17-oracle
-ADD target/qq-robot-1.0-SNAPSHOT.jar /app/app.jar
-RUN bash -c 'touch /app/app.jar'
+ADD qq-robot-1.0-SNAPSHOT.jar /app.jar
+RUN bash -c 'touch /app.jar'
 WORKDIR /app
-ENV BOT_PATH='file:/app/bots/*.yaml'
 ENTRYPOINT 9543
-ENTRYPOINT ["java", "-Dfile.encoding=utf-8", "-Djava.security.edg=file:/dev/./urandom", "-Duser.timezone=Asia/Shanghai", "-Xmx128m", "-Xms64m", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java", "-Dfile.encoding=utf-8", "-Djava.security.edg=file:/dev/./urandom", "-Duser.timezone=Asia/Shanghai", "-Xmx128m", "-Xms64m", "-jar", "/app.jar"]

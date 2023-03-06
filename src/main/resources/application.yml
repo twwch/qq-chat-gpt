@@ -1,6 +1,6 @@
-simbot:
-  bot-configuration-resources:
-    - ${BOT_PATH}
 
 server:
   port: 9543
+spring:
+  profiles:
+    active: dev

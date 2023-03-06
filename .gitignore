@@ -31,6 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
-bots
 device.json
 cache
+
+src/main/resources/application-dev.yml
+src/main/resources/simbot-bots/chtw3230-bot.bot.json

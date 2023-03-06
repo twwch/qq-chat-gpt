@@ -1,0 +1,11 @@
+{
+  "component": "simbot.mirai",
+  "code": 1234444,
+  "passwordInfo": {
+    "type": "text",
+    "text": "xxxx"
+  },
+  "config": {
+    "protocol": "ANDROID_WATCH"
+  }
+}
