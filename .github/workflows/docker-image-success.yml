@@ -26,7 +26,7 @@
 #       - name: BuildDockerImage
 #         run: docker build . --file Dockerfile --tag twwch/qq-chat-gpt:${{ github.ref_name	 }}
 #       - name: Publish to Docker Repository
-#         uses: elgohr/Publish-Docker-Github-Action@master
+#         uses: elgohr/Publish-Docker-Github-Action@v5
 #         with:
 #           name: twwch/qq-chat-gpt:${{ github.ref_name	 }}
 #           repository: twwch/qq-chat-gpt
